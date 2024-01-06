@@ -1,6 +1,9 @@
 # NLP - Coreference Resolution
 
-End-to-end (E2E) coreference resolution is the task of identify the ambiguous pronoun and the entity that corresponds to the identified pronoun.
+End-to-end (E2E) coreference resolution is the task of automatically identify all the candidate entities in a text (mention proposal) and understand which pairs of mentions correspond to the same entity (mention linking). The task can be divided in three main parts: ambiguous pronoun identification, entity identification and entity resolution (i.e. select the entity that corresponds to the identified pronoun):
+<p align="center">
+    <img width="600" src="./imgs/corefres_pipeline.png" alt="Coref Resolution">
+</p>
 
 The selected predicate defines an action/event with its arguments, each of them with a specific role. 
 An example is reported below:
